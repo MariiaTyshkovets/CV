@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+header, main {
+    max-width: 900px;
+}
+table {
+    margin: auto;
+}
+table .center {
+    text-align: center;    
+}
+td img {
+    width: 110px; 
+    border-radius: 35%;
+}
+table.info {
+    width: 100%;
+    background-color: lavender;
+}
+img.icon {
+    width: 16px; 
+    vertical-align: middle;
+}
+article.columns {
+    display: flex; 
+    width: 100%;
+    text-align: left;
+}
+#main {
+    flex-grow: 0;
+}
+#additional {
+    flex-grow: 1; min-width: 140px;
+}
+section h2 {
+    padding-left:20px;
+}
