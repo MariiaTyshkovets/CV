@@ -4,110 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/style.css" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
-    <center>
-    <main style="max-width: 1000px;">
-        <table align="center">
+    <header>
+        <table>
             <tbody>
             <tr>
-                <td width="80%" align="center"><h1>Mariia Tyshkovets</h1></td> 
-                <td rowspan="2"><img src="img/Mariia.jpeg" alt="Mariia Tyshkovets" width="110px" style="border-radius: 35%;" ></td>
+                <td class="center"><h1>Mariia Tyshkovets</h1></td> 
+                <td rowspan="2"><img src="img/Mariia.jpeg" alt="Mariia Tyshkovets"></td>
             </tr> 
             <tr>
-                <td><p>I'm passionate about programming. 
-                Responsibility and time management is my strong side.</p></td>
-            <tr>
+                <td><p>I'm passionate about programming. Responsibility and time management is my strong side.</p></td>
+            </tr>
             </tbody>
         </table>
-        <table width="100%" bgcolor="lightgrey">
+    </header>
+    <main>
+        <table class="info">
             <tr>
                 <th>Adress</th>
                 <th>Contacts</th>
                 <th>Social Networks</th>
                 <th>Date of Birth</th>
             </tr>
-            <tr align="center">
+            <tr class="center">
                 <td> 26 Ponomareva Str.,</td>
                 <td>0682687874</td>
                 <td>
-                    <img src="img/linkedin.png" alt="LinkedIn icon" width="16" style="vertical-align: middle;">
+                    <img src="img/linkedin.png" alt="LinkedIn icon" class="icon">
                     <a href="https://www.linkedin.com/in/mariia-tyshkovets-8541b6209/" target="_blank"> LinkedIn</a>
                 </td>
                 <td>15.02.1996</td>
             </tr>
-            <tr align="center">
+            <tr class="center">
                 <td> Kotsyubynske, </td>
-                <td>maria15021996@gmail.com</td>
+                <td><em> maria15021996@gmail.com </em></td>
                 <td>
-                    <img src="img/github.png" alt="Github icon" width="16" style="vertical-align: middle;">
+                    <img src="img/github.png" alt="Github icon" class="icon">
                     <a href="https://github.com/MariiaTyshkovets" target="_blank"> GitHub</a>
                 </td>
                 <td></td>
             </tr>
-            <tr align="center">
+            <tr class="center">
                 <td> Kyiv region, 08298 </td>
                 <td></td>
                 <td>
-                    <img src="img/fb.png" alt="Facebook icon" width="16" style="vertical-align: middle;">
+                    <img src="img/fb.png" alt="Facebook icon" class="icon">
                     <a href="https://www.facebook.com/mariia.tyshkovets" target="_blank"> Facebook</a>
                 </td>
                 <td></td>
             </tr>
         </table>
-    
-    <div style="display: flex; width: 100%;" align="left">
-        <div style="flex-grow: 0;">
-            <h2 style="padding-left:20px;">Education</h2>
-            <ul>
-                <li>30.11.2021 – 30.03.22, <br> <strong>FrontEnd developer</strong>, Betroot Academy;</li>
-                <li>2018 – Present, <br> Doctor of Philosophy - PhD, Metallurgy, 
+        <article class="columns">
+            <section id="main">
+                <h2>Education</h2>
+                <ul>
+                    <li>30.11.2021 – 30.03.22, <br> <strong>FrontEnd developer</strong>, Betroot Academy;</li>
+                    <li>2018 – Present, <br> Doctor of Philosophy - PhD, Metallurgy, 
                     National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute";</li>
-                <li>2016 – 2018, <br> Master's degree, Metallurgy,
+                    <li>2016 – 2018, <br> Master's degree, Metallurgy,
                     National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute";</li>
-                <li>2012 – 2016, Bachelor's degree, Foundry production,
+                    <li>2012 – 2016, Bachelor's degree, Foundry production,
                     National Technical University of Ukraine "Kyiv Polytechnic Institute".</li>
-            </ul>
-            <h2 style="padding-left:20px;">Work experience</h2>
-            <ul>
-                <li>30.03.2021 – 01.12.21, <br> <strong>Design Engineer</strong>, <br> 
+                </ul>
+                <h2>Work experience</h2>
+                <ul>
+                    <li>30.03.2021 – 01.12.21, <br> <strong>Design Engineer</strong>, <br> 
                     Research and production enterprise "Aerotechnics-MLT".</li>
-            </ul>
-            <h2 style="padding-left:20px;">Skills</h2>
-            <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>javascript</li>
-                <li>REST</li>
-            </ul>
-       </div>
-        <div style="flex-grow: 1; min-width: 140px;">
-            <h2 style="padding-left:20px;">Hobbies</h2>
-            <ul>
-                <li>drawing</li>
-                <li>singing</li>
-                <li>dansing</li>
-                <li>volleyball</li>
-                <li>play games</li>
-            </ul>
-            <h2 style="padding-left:20px;">Personality</h2>
-            <ul>
-                <li>self-motivated</li>
-                <li>kind AF</li>
-                <li>smart like a phone</li>
-                <li>patient</li>
-                <li>optimistic</li>
-            </ul>
-            <h2 style="padding-left:20px;">Languages</h2>
-            <ul>
-                <li>Ukrainian</li>
-                <li>Russian</li>
-                <li>English</li>
-            </ul>
-        </div>
-    </div>
-</main>
-</center>
+                </ul>
+                <h2>Skills</h2>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                    <li>REST</li>
+                </ul>
+            </section>
+            <section class="additional">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>drawing</li>
+                    <li>singing</li>
+                    <li>dansing</li>
+                    <li>volleyball</li>
+                    <li>play games</li>
+                </ul>
+                <h2>Personality</h2>
+                <ul>
+                    <li>self-motivated</li>
+                    <li>kind AF</li>
+                    <li>smart like a phone</li>
+                    <li>patient</li>
+                    <li>optimistic</li>
+                </ul>
+                <h2>Languages</h2>
+                <ul>
+                    <li>Ukrainian</li>
+                    <li>Russian</li>
+                    <li>English</li>
+                </ul>
+            </section>
+        </article>
+    </main>
 </body>
 </html>
