@@ -10,18 +10,18 @@ header, main {
 table {
     margin: auto;
 }
-table .center {
+.center {
     text-align: center;    
 }
 td img {
     width: 110px; 
     border-radius: 35%;
 }
-table.info {
+.info {
     width: 100%;
     background-color: lavender;
 }
-img.icon {
+.icon {
     width: 16px; 
     vertical-align: middle;
 }
