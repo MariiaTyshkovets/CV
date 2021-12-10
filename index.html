@@ -4,26 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/reset.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
-    <header>
-        <table>
-            <tbody>
-            <tr>
-                <td class="center"><h1>Mariia Tyshkovets</h1></td> 
-                <td rowspan="2"><img src="img/Mariia.jpeg" alt="Mariia Tyshkovets"></td>
-            </tr> 
-            <tr>
-                <td><p>I'm passionate about programming. Responsibility and time management is my strong side.</p></td>
-            </tr>
-            </tbody>
-        </table>
+    <header class="header">
+        <div class="left">
+            <h1 class="name">Mariia Tyshkovets</h1>
+            <p>I'm passionate about programming. Responsibility and time management is my strong side.</p> 
+        </div>
+        <div class="right">
+            <img src="img/Mariia.jpeg" alt="Mariia Tyshkovets" class="main-img">
+        </div>
     </header>
-    <main>
+    <main class="main">
         <table class="info">
-            <tr>
+            <tr class="thead">
                 <th>Adress</th>
                 <th>Contacts</th>
                 <th>Social Networks</th>
@@ -58,9 +55,9 @@
             </tr>
         </table>
         <article class="columns">
-            <section id="main">
+            <section class="main-info">
                 <h2>Education</h2>
-                <ul>
+                <ul class="list">
                     <li>30.11.2021 – 30.03.22, <br> <strong>FrontEnd developer</strong>, Betroot Academy;</li>
                     <li>2018 – Present, <br> Doctor of Philosophy - PhD, Metallurgy, 
                     National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute";</li>
@@ -70,12 +67,12 @@
                     National Technical University of Ukraine "Kyiv Polytechnic Institute".</li>
                 </ul>
                 <h2>Work experience</h2>
-                <ul>
+                <ul class="list">
                     <li>30.03.2021 – 01.12.21, <br> <strong>Design Engineer</strong>, <br> 
                     Research and production enterprise "Aerotechnics-MLT".</li>
                 </ul>
                 <h2>Skills</h2>
-                <ul>
+                <ul class="list">
                     <li>html</li>
                     <li>css</li>
                     <li>javascript</li>
