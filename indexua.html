@@ -4,29 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
     <link href="style/style.css" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
-    <header>
-        <table>
-            <tbody>
-            <tr>
-                <td class="center"><h1>Марія Тишковець</h1></td> 
-                <td rowspan="2"><img src="img/Mariia.jpeg" alt="Mariia Tyshkovets"></td>
-            </tr> 
-            <tr>
-                <td>
-                    <p>Я захоплююся програмуванням. Відповідальність 
-                    та time management – моя сильна сторона.</p>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+    <header class="header">
+        <div class="left">
+            <h1 class="name">Марія Тишковець</h1>
+            <p>Я захоплююся програмуванням. Відповідальність та time management – моя сильна сторона.</p> 
+        </div>
+        <div class="right">
+            <img src="img/Mariia.jpeg" alt="Mariia Tyshkovets" class="main-img">
+        </div>
     </header>
-    <main>
+    <main class="main">
         <table class="info">
-            <tr>
+            <tr class="thead">
                 <th>Адреса</th>
                 <th>Контакти</th>
                 <th>Соціальні мережі</th>
@@ -43,7 +37,7 @@
             </tr>
             <tr class="center">
                 <td> смт Коцюбинське, </td>
-                <td><em>maria15021996@gmail.com</em></td>
+                <td><em class="italic">maria15021996@gmail.com</em></td>
                 <td>
                     <img src="img/github.png" alt="Github icon" class="icon">
                     <a href="https://github.com/MariiaTyshkovets" target="_blank"> GitHub</a>
@@ -61,9 +55,9 @@
             </tr>
         </table>
         <article>
-            <section class="main">
+            <section class="main-info">
                 <h2>Освіта</h2>
-                <ul>
+                <ul class="list">
                     <li>30.11.2021 – 30.03.22, <br> <strong>FrontEnd розробник</strong>, Betroot Academy;</li>
                     <li>2018 – по даний час, <br> доктор філософії PhD за спуціальністю "Металургія", 
                     Національний технічний університет України "Київський політехнічний інститут імені Ігоря Сікорського";</li>
@@ -73,12 +67,12 @@
                     Національний технічний університет України "Київський поітехнічний інститут".</li>
                 </ul>
                 <h2>Досвід роботи</h2>
-                <ul>
+                <ul class="list">
                     <li>30.03.2021 – 01.12.21, <br> <strong>Інженер конструктор</strong>, <br> 
                     Науково-виробниче підприємство "Аеротехніка-МЛТ".</li>
                 </ul>
                 <h2>Професійні навички</h2>
-                <ul>
+                <ul class="list">
                     <li>html</li>
                     <li>css</li>
                     <li>javascript</li>
